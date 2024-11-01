@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 320px;
+}
+.navbar-color-class{
+    background-color: black;
+    position: fixed;
+    top: 0px;
+}
+.logo-navbar{
+width: 100px;
+}
+.nav-main-link{
+    font-family: "Titillium Web", sans-serif;
+    margin: 0px;
+    font-size: 18px;
+    color: #ffff;
+    transition: text-decoration-color 0.8s ease;
+    cursor: pointer;
+}
+.nav-main-link:hover{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+.pages-links-main{
+    margin-left: 40%;
+}
+.hero-title-text{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
+
+.carousel-caption h5 {
+    font-size: 3rem; /* Adjust font size as needed */
+    font-weight: bold;
+    color: white;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    color: white;
+}
+.carousel-main-div{
+    height: 90vh;
+}
+.slider-main{
+    position: relative;
+
+}
+
+
+
+
+@media screen and (max-width:375px){
+    .pages-links-main{
+        margin-left: 0%;
+    }
+    .header-content-main{
+        flex-direction: column;
+       align-items: start;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:768px){
+    .pages-links-main{
+        margin-left: 0%;
+    }
+    .header-content-main{
+        flex-direction: column;
+       align-items: start;
+    }
+}
